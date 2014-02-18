@@ -1,5 +1,7 @@
 package stringUtil
 
+// Reverse function will reverse a string input passed to this function.
+// You can pass Unicode characters as well to get the desired output.
 func Reverse(s string) string {
 	b := []rune(s)
 	for i:=0; i < len(b)/2; i++ {
