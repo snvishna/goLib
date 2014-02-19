@@ -5,3 +5,4 @@ notificaitons:
     on_success: change
     on_failure: always
 before_script:
+	gofmt -w ./
