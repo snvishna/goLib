@@ -5,7 +5,7 @@ import "testing"
 func Test(t *testing.T) {
 	var tests = []struct {
 		s, want string
-	} {
+	}{
 		{"Backward", "drawkcaB"},
 		{"Hello, 世界", "界世 ,olleH"},
 		{"", ""},
